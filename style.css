@@ -11,7 +11,13 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 20%;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1, h2, h3 {
@@ -50,4 +56,8 @@ h1 {
     50% {
         background-position: 100% 0;
     }
+}
+
+.unbold {
+  font-weight: normal;
 }
